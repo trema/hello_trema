@@ -11,7 +11,7 @@ gem 'trema', github: 'trema/trema', branch: 'develop'
 group :development, :test do
   gem 'aruba', require: false
   gem 'cucumber', require: false
-  gem 'rake', '~> 10.0', require: false
+  gem 'rake', require: false
   gem 'rspec', require: false
   gem 'rspec-given', require: false
 end
