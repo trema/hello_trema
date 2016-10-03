@@ -26,7 +26,7 @@ Trema programming.
 Prerequisites
 -------------
 
-* Ruby 2.1.0 or higher ([RVM][rvm]).
+* Ruby 2.2.5 or higher ([RVM][rvm]).
 * [Open vSwitch][openvswitch] (`apt-get install openvswitch-switch`).
 
 [rvm]: https://rvm.io/
