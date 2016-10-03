@@ -15,18 +15,15 @@ group :development, :test do
   gem 'cucumber', require: false
   gem 'flay', require: false
   gem 'flog', require: false
-  gem 'rake', require: false
-  gem 'reek', require: false
-  gem 'rspec', require: false
-  gem 'rspec-given', require: false
-  gem 'rubocop', require: false
-end
-
-group :development do
   gem 'guard', require: false
   gem 'guard-bundler', require: false
   gem 'guard-rspec', require: false
   gem 'guard-rubocop', require: false
   gem 'inch', require: false
+  gem 'rake', require: false
+  gem 'reek', require: false
+  gem 'rspec', require: false
+  gem 'rspec-given', require: false
+  gem 'rubocop', require: false
   gem 'yard', require: false
 end
