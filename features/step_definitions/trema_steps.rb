@@ -71,9 +71,9 @@ When(/^I delete the link between "([^"]*)" and "([^"]*)"$/) do |peer1, peer2|
 end
 
 # rubocop:disable LineLength
-Then(/^the log file "([^"]*)" should contain following messages:$/) do |log_file, messages|
+Then(/^the log file "([^"]*)" should contain the following messages:$/) do |log_file, messages|
   step %(a file named "#{log_file}" should exist)
-  messages.rows.flatten.each do |each|
+  messages.raw.flatten.each do |each|
     step %(the file "#{log_file}" should contain "#{each}")
   end
 end
