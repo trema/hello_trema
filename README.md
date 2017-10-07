@@ -7,8 +7,10 @@ hello_trema
 [![Dependency Status](http://img.shields.io/gemnasium/trema/hello_trema.svg?style=flat)][gemnasium]
 [![Inline docs](http://inch-ci.org/github/trema/hello_trema.png?branch=develop)][inch]
 
+Welcome to "Hello Trema!"
+
 The "Hello Trema!" example is one of the simplest OpenFlow controller
-implementation. The basic functionality of this controller is to
+implementations. The basic functionality of this controller is to
 establish an OpenFlow channel connection with an OpenFlow switch and
 output the `"Hello 0xabc! (switch's datapath ID)"` message.
 
